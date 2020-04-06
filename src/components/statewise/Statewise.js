@@ -130,7 +130,7 @@ class Statewise extends Component {
                 <br /><br />
             </div>
         )
-  }
+    }
 }
 
 export default Statewise
