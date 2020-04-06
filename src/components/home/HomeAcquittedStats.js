@@ -42,6 +42,7 @@ class HomeAcquittedStats extends Component {
                         </div>
                     </div>
                 </section>
+                <br /><br />
             </div>
         )
   }

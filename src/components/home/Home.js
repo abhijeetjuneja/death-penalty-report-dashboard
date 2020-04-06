@@ -76,13 +76,9 @@ class Home extends Component {
                     </div>
                 </div>
                 <HomeOverviewStats overViewDeath={overViewDeath}/>
-                <br /><br />
                 <HomeCommutedStats overViewCommuted={overViewCommuted}/>
-                <br /><br />
                 <HomeAcquittedStats overViewAcquitted={overViewAcquitted}/>
-                <br /><br />
                 <HomeConfirmedStats overViewConfirmed={overViewConfirmed}/>
-                <br /><br />
                 <HomeRemittedStats overViewRemitted={overViewRemitted}/>
             </div>
         )
