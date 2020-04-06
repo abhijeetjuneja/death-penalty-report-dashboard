@@ -1,13 +1,10 @@
 import React, { Component } from 'react'
-import jwt_decode from 'jwt-decode'
 
 class Header extends Component {
   constructor() {
     super()
     this.state = {
-      name: '',
-      email: '',
-      errors: {}
+        
     }
   }
 
