@@ -53,6 +53,10 @@ ion-spinner {
     color: #2599FE!important;
 }
 
+.text-black {
+    color: black!important;
+}
+
 .back-white {
     background: white!important;
 }
@@ -443,7 +447,7 @@ ion-spinner {
     margin: 0 !important
   }
   .navbar-default .navbar-nav>li>a {
-    color: #EEE !important;
+    color: black !important;
     line-height: 55px !important;
     padding: 0 10px !important;
   }
@@ -461,7 +465,7 @@ ion-spinner {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {margin: 0 !important}
   @media (max-width: 767px) {
     .navbar>.container-fluid .navbar-brand {
-      margin-left: 15px !important;
+      margin-left: 0px !important;
     }
     .navbar-default .navbar-nav>li>a {
       padding-left: 0 !important;
@@ -497,7 +501,72 @@ ion-spinner {
   .navbar-default .navbar-nav>li>a>i {
     font-size: 18px !important;
   }
+
+  .mobile-toggle {
+    display:none;
+}
+.desktop-toggle{
+    display:inline-block;
+}
+
+.mobile-filter {
+    display: none;
+}
+
+.desktop-filter {
+    display: block;
+}
   
+
+  @media screen and (max-width: 767px) {
+      .navbar div {
+          padding-left: 0!important;
+          padding-right: 0!important;
+      }
+      .mobile-toggle {
+          display:inline-block;
+          margin-left: 5px;
+      }
+      .desktop-toggle{
+          display:none;
+      }
+      .navbar>.container-fluid .navbar-brand {
+        background: #ffffff;
+      }
+      .navbar-default {
+          background-color: #2599FE!important;
+          padding: 0!important;
+      }
+      .navbar-default .navbar-nav>li>a {
+          color:white!important;
+      }
+      .navbar-default .navbar-nav>li {
+          padding-left: 10px;
+      }
+      .mobile-filter {
+        display: block;
+    }
+    
+    .desktop-filter {
+        display: none;
+    }
+    .box {
+        margin-bottom: 0!important;
+    }
+    .statewise-stats-div {
+        padding-left:15px!important;
+        margin-top: 64px;
+    }
+    .statewise-map-div {
+        padding-right:0px!important;
+    }
+    .statewise-stats-item {
+        margin-bottom: 0!important;
+    }
+    .statistics {
+        margin-top: 42px;
+    }
+  }
   
   
   
@@ -508,7 +577,7 @@ ion-spinner {
       margin: 0 !important
     }
     .statistics .box {
-      margin-bottom: 25px !important;
+      margin-bottom: 0px !important;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
       color: black !important
@@ -518,7 +587,7 @@ ion-spinner {
     }
     .navbar-default .navbar-toggle{
       border:none !important;
-      color: #EEE !important;
+      color: black !important;
       font-size: 18px !important;
     }
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: transparent !important}

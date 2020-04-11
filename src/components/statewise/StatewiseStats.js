@@ -16,7 +16,7 @@ class StatewiseStats extends Component {
         return (
             <div>
                 <div class="row">
-                    <div class="col-md-12 mb-4">
+                    <div class="col-md-12 mb-4 statewise-stats-item">
                         <div class="box">
                             <i class="fa fa-user fa-fw bg-danger text-center"></i>
                             <div class="info">
@@ -25,7 +25,7 @@ class StatewiseStats extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 mb-4 mt-4">
+                    <div class="col-md-12 mb-4 mt-4 statewise-stats-item">
                         {currentState == null ? <div class="box">
                             <i class="fa fa-user fa-globe bg-success text-center"></i>
                             <div class="info">
@@ -41,7 +41,7 @@ class StatewiseStats extends Component {
                             </div>
                         </div>}
                     </div>
-                    <div class="col-md-12 mb-4 mt-4">
+                    <div class="col-md-12 mb-4 mt-4 statewise-stats-item">
                         <div class="box">
                             <i class="fa fa-map-marker bg-warning text-center"></i>
                             <div class="info">

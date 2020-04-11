@@ -116,10 +116,10 @@ class Statewise extends Component {
                 <section class="statistics mr-3">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-8">
+                            <div class="col-md-8 statewise-map-div">
                                 <StatewiseMap setCurrentState={this.setCurrentState} statewiseData={statewiseData}/>
                             </div>
-                            <div class="col-md-4 pt-0 pl-0 pr-0 pb-1">
+                            <div class="col-md-4 pt-0 pl-0 pr-0 pb-1 statewise-stats-div">
                                 <StatewiseStats caseList={caseList} currentState={currentState} statewiseData={statewiseData}/>
                             </div>
                         </div>
